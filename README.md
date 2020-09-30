@@ -1,24 +1,31 @@
-# Bhadoo Cloud Drive
+# SK Cloud HK
 
-Save Files from URL to Google Drive
+Salvar os arquivos de URLs ou Links para o Google Drive.
 
-## Required
+## Procedimentos :
 
-* Open [Google Dev Credentials Site](https://console.developers.google.com/apis/credentials).
-* Create a Project, name as you like.
-* Enable [Drive API](https://console.developers.google.com/apis/library/drive.googleapis.com)
-* In [Credentials Page](https://console.developers.google.com/apis/credentials) Click `Create Credentials` and then Click `OAuth Client ID`.
-* Select Web Application.
-* In `Authorized JavaScript origins` enter your domain name or IP whichever you are using for this app.
-* In `Authorized redirect URIs` enter your domain name or IP with `/api/oauth/google/callback` at last.
-* eg. for `https://bhadooclouduploader.herokuapp.com` it's `https://bhadooclouduploader.herokuapp.com/api/oauth/google/callback`
-* Copy your details.
-* You'll need these 3 when deploying to Heroku using below button.
+* Abrir o [Google Dev Credentials Site](https://console.developers.google.com/apis/credentials).
+* Criar um Projeto, O nome e você pode definir do seu jeito.
+* Ativer - "Enable" [Drive API](https://console.developers.google.com/apis/library/drive.googleapis.com)
+* Na Página De Credenciais [Credentials Page](https://console.developers.google.com/apis/credentials) Click em  `Create Credentials` e depois Click `OAuth Client ID`.
+* Seleccione a Aplicação Web.- Select Web Application.
+* Em `Authorized JavaScript origins` indique o seu nome de domínio site ou IP, o que estiver a usar para esta aplicação.
+* Na `Authorized redirect URIs` indique o seu nome de domínio site ou IP em `/api/oauth/google/callback` ao completa.
+* Exemplo no caso de : `https://nome.herokuapp.com` - ficarar assim : `https://nome.herokuapp.com/api/oauth/google/callback`
+* Copie suas informações.
+* Você vai precisar destas 3 etapas quando estiver no site do Heroku e fazendo o deploy usando o botão abaixo.
 
-## Deploy to Heroku
+## Deploy to Heroku - Implantar ou Complementar ao heroku.
 
-Before you deploy follow the above steps or it won't work.
+Antes de iniciar esse processo siga os passos acima como explicados ou não funcionará.
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
-Source: https://github.com/cloud-transfer/cloud-transfer-backend
+## Fontes : thanks!!
+
+-- [MIT © Dhaval Mehta](https://github.com/dhaval-mehta)
+** Ideia do projeto : https://github.com/cloud-transfer/cloud-transfer-backend
+
+--  [Parveen Bhadoo Official](https://github.com/ParveenBhadooOfficial)
+** Fonte original do codigo moderno : https://github.com/ParveenBhadooOfficial/Bhadoo-Cloud-Drive
+
