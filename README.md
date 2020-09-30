@@ -19,7 +19,7 @@ Salvar os arquivos de URLs ou Links para o Google Drive.
 
 Antes de iniciar esse processo siga os passos acima como explicados ou não funcionará.
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/jessikp/SK-Cloud-HK)
 
 ## Fontes : thanks!!
 
